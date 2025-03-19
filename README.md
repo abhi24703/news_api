@@ -1,16 +1,14 @@
-# flutter_news_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setup Instructions 
+Prerequisites
+- Flutter SDK 3.19.0+
+- Dart 3.3.0+
+- NewsAPI.org API key
+ Installation
+1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/flutter-news-app.git
+2. Get api key from https://newsapi.org/
+3. Replace your api key in lib\utils\constants.dart
+4. run these commands
+- flutter pub get
+- flutter run
